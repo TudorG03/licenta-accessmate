@@ -1,4 +1,4 @@
-import mongoose from "npm:mongoose@7.6.3";
+import mongoose from "npm:mongoose@^6.7";
 import { load } from "https://deno.land/std/dotenv/mod.ts";
 
 await load({ export: true });
